@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mainColor: gold;
+  --secondaryColor: #ffda71;
+  --darkGray: #171717;
+  --gray: #666666;
+  --lightGray: #818181;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  font-family: 'Open Sans';
+  background-color: var(--white);
+  color: var(--gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins';
+}
+
+h4,
+h6 {
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#heading-196 > a > div > div {
+  background-color: brown;
+}

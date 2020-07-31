@@ -1,0 +1,15 @@
+[
+  {
+    "restaurant-name": "Hokkaido Natsuboshi",
+    "intro": "Located in HMart's trendy new food court! Come experience authentic Ramen and other Japanese favorites like sukiyaki, chicken karaage and much more! Kaka'ako's Best Ramen!",
+    "copyright": "Copyright 2020 Hokkaido Natsuboshi Honolulu",
+    "logo": "../images/icon.png",
+    "hours": ["Daily 11:00am - 9:00pm"],
+    "phone": "(808) 201-3938",
+    "street": "458 Keawe St 2nd floor",
+    "city": "Honolulu, Hi 96813",
+    "facebook": "https://www.yelp.com/biz/hokkaido-ramen-natsuboshi-honolulu",
+    "instagram": "https://www.instagram.com/natsuboshi_ramen.808/",
+    "menu": "https://www.grindztogo.com/single.php/order/restaurant/hokkaido-ramen-natsuboshi/60?takeout=1"
+  }
+]
