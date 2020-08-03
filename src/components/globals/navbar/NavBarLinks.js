@@ -7,14 +7,24 @@ class NavBarLinks extends Component {
     links: [
       {
         id: 0,
+        path: '/',
+        text: 'home',
+      },
+      {
+        id: 1,
         path:
           'https://www.grindztogo.com/single.php/order/restaurant/hokkaido-ramen-natsuboshi/60?takeout=1',
         text: 'menu',
       },
       {
-        id: 1,
-        path: '#information',
-        text: 'information',
+        id: 2,
+        path: '/contact',
+        text: 'contact',
+      },
+      {
+        id: 3,
+        path: '/about',
+        text: 'about',
       },
     ],
   }
@@ -56,7 +66,7 @@ const LinkWrapper = styled.ul`
       padding: 0.8rem 1.5rem;
     }
   }
-  height: ${(props) => (props.open ? '100px' : '0px')};
+  height: ${(props) => (props.open ? '195px' : '0px')};
   overflow: hidden;
   transition: all 0.2s ease-in-out;
   @media (min-width: 768px) {

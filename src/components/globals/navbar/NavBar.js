@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import NavBarHeader from "./NavBarHeader"
-import NavBarLinks from "./NavBarLinks"
-import styled from "styled-components"
+import React, { Component } from 'react'
+import NavBarHeader from './NavBarHeader'
+import NavBarLinks from './NavBarLinks'
+import styled from 'styled-components'
 
 export default class NavBar extends Component {
   state = {
@@ -25,6 +25,7 @@ export default class NavBar extends Component {
 }
 
 const NavWrapper = styled.nav`
+  background-color: #000000;
   width: 100%;
   position: fixed;
   z-index: 999;
